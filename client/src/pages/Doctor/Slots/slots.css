@@ -1,0 +1,22 @@
+.slots {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.slots .slot-card {
+  width: 400px;
+  border-radius: 6px 6px 6px 6px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px #0000001a;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+  margin: 10px;
+}
+
+.slot-card button {
+  background-color: #266377;
+  border-radius: 3px 3px 3px 3px;
+  outline: none;
+}
